@@ -1,7 +1,7 @@
 
 # Cybersecurity Risk Assessment Documentation/Walkthrough for Falcone Systems
 
-### To see the full Final Report click on the attached ```Audit Lab Final Report v2.pdf``` located in this repository.
+### To see the full Final Report click on the attached ```Risk Assessment Lab Final Report v2.pdf``` located in this repository.
 
 ## Background
 This audit focused on examining the Media Protection controls at Falcone Systems, specifically to check if they align with the guidelines set out in NIST SP 800-53 regarding Media Controls. 
