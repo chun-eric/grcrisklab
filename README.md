@@ -35,28 +35,43 @@ Below is a snapshot example.
 | Legal |	Policy Breach |	Inadequate power will adversely affect the availability of a system |	Without adequate power and backup power, the systems supporting Falcone Systems will not be available.  | The lack of policy or a violation of existing policy may open the up to litigation or result in serious damage to the 's reputation |
 | Managerial |	Lack of Resources |	Resources, including personnel and life cycle replacement of IT components, if not adequately put in place, can cause system failures or inability to provide adequate support to the  mission  |	Without adequate resources, Falcone Systems has suffered single points of failure which caused repeated repair or reinvention of processes  |
 
-Once
+We would then add the ```Threat``` column and add to our Audit excel spreadsheet.
 
-All audit interview questions were prepared before the onsite interview was conducted and necessary documents such as 
-Falcone IT Systems’ Standard Operating Procedure and Security Plan were requested for review before the onsite audit interview.
+A further two columns called ```Vulnerability Description``` and ```Mitigating Factors or Compensatory Controls in Place``` would be addeded. 
+So the risk assessment file would have the following columns. 
+
+| Threat(s) |	Vulnerability Description	| Mitigating Factors or Compensatory Controls in Place	| 
+| :---: |  :---: |  :---: |  
+
+The ```Vulnerability Description``` means
+
+The ```Mitigating Factors or Compensatory Controls in Place``` means 
 
 <br/>
 
  
-## Step 2 - Audit Logistics
+## Step 2 - Conduct the Risk Assessment
 
-For the external audit of Falcone IT Systems, it was not feasible to be assigned a liaison officer. 
-Instead, a focused 90-minute meeting was scheduled directly with key personnel—Director of IT John Finnegan and Network Engineer Sam Cunningham—at the Falcone IT Systems Headquarters in Boston, Massachusetts. 
+Now that we have entered our data for the above columns in Step 1 (the Threat, the Vulnerability and Mitigating Factors), 
+we need to as objectively as possible quantify the likelihood and impact of each threat.
 
-The objective was to efficiently conclude the onsite interview within 60 minutes, allowing for an additional 30 minutes if needed to cover all necessary ground.
+Using NIST SP 800-30 Appendix G and H tables, we can begin to accurately quantify the Likelihood and Impact of the Vulnerability to Falcone Systems.
+
+Values can either be 
+qualitative: 
+| Very Low | Low |	Moderate| High	| Very High	| 
+| :---: |  :---: |  :---: |   :---: |   :---: |  
+
+or semi quantitative:
+| 0 | 2 |	5| 8	| 10	| 
+| :---: |  :---: |  :---: |   :---: |   :---: |  
 
 <br/>
 
 
-## Step 3 - On-site Audit (Data gathering)
+## Step 3 - Calcuating the Risk
  
-The on-site audit interview was conducted using tailored questions derived from NIST SP 800-53 Media Controls, addressing both interviewees simultaneously. 
-The primary goals of this audit phase were to:
+From the 
 
 - [x] Ensure comprehensive data collection during the interview.
 - [x] Determine the implementation status of Media Protection controls.
