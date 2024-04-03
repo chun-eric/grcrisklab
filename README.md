@@ -4,34 +4,38 @@
 ### To see the full Final Report click on the attached ```Risk Assessment Lab Final Report v2.pdf``` located in this repository.
 
 ## Background
-This audit focused on examining the Media Protection controls at Falcone Systems, specifically to check if they align with the guidelines set out in NIST SP 800-53 regarding Media Controls. 
-Falcone Systems 
-We structured the audit into six detailed steps, using NIST SP 800-171 Revision 2, which covers the protection of Controlled Unclassified Information in non-federal systems and organizations, 
+The Falcone Systems risk assessment is focused on assessing the risk from the Media Protection controls that were either partially in place or not in place at Falcone Systems. 
+The risk assessment could be undertaken from the findings of the Falcone Systems Audit Lab. 
+
+The goal of this risk assessment is found out the 
+
+We structured the audit into six detailed steps, using NIST SP 800-30 Guide for Conducting Risk Assessments 2, which covers the protection of Controlled Unclassified Information in non-federal systems and organizations, 
 as our primary reference. 
 
 We then compared and aligned the security measures at Falcone IT Systems with the Media Protection controls from NIST SP 800-53 Revision 5, 
 ensuring that they meet the requirements for safeguarding Controlled Unclassified Information.
 
 
-Below are the six steps we took to undertake this audit.
+Below are the steps we took to undertake this risk assessment.
 
 <br/>
 
-## Step 1 - Audit Preparation
+## Step 1 - Risk Assessment Preparation
 
-In order to prepare for the audit, two questions were asked.
+In order to prepare for the risk assessment, we needed to identify the threats present first.
 
-1. <strong>What controls were we auditing?</strong> 
-  - After contacting Falcone Systems IT department, it was determined that it would be Falcone Systems’ Media Protection controls that needed to be audited based on NIST SP 800-53.
-    An excel spreadsheet from NIST SP 800-171 revision 2 was used as a base template.
+A modified threat list was compiled based of NIST SP 800-30 Appendix D and E.
+Below is a snapshot example.
 
-2. <strong>Who did we need to talk to in order to gather our audit information?</strong>
-  - After communicating with the appropriate personnel from Falcone Systems, we had scheduled meetings with two key personnel from Falcone Systems:
 
-| Job Title |	Name	| Date	| Location |
+| Threat Source |	Threat	| Description	| Consequence |
 | :---: |  :---: |  :---: |  :---: |
-| Director of IT | John Finnegan | 23rd February 2024 |  Falcone Systems HQ |
-| Network Engineer |	Sam Cunningham |	23rd February 2024 |	Falcone Systems HQ |
+| Human intentional/Human Unintentional | Data modification/destruction/corruption | An improperly protected system |  Operational failure of Falcone Systems |
+| Environmental/Natural |	Power Failure |	Inadequate power will adversely affect the availability of a system |	Without adequate power and backup power, the systems supporting Falcone Systems will not be available.  |
+| Legal |	Policy Breach |	Inadequate power will adversely affect the availability of a system |	Without adequate power and backup power, the systems supporting Falcone Systems will not be available.  | The lack of policy or a violation of existing policy may open the up to litigation or result in serious damage to the 's reputation |
+| Managerial |	Lack of Resources |	Resources, including personnel and life cycle replacement of IT components, if not adequately put in place, can cause system failures or inability to provide adequate support to the  mission  |	Without adequate resources, Falcone Systems has suffered single points of failure which caused repeated repair or reinvention of processes  |
+
+Once
 
 All audit interview questions were prepared before the onsite interview was conducted and necessary documents such as 
 Falcone IT Systems’ Standard Operating Procedure and Security Plan were requested for review before the onsite audit interview.
