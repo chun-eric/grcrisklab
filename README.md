@@ -85,7 +85,7 @@ For example:
 ```Impact``` = 8
 <br/>
 
-``Risk``` = 2 x 8 = 16
+```Risk``` = 2 x 8 = 16
 
 A ```Risk``` of 16 out of 100 is considered low.
 The image below shows an example using this approach.
