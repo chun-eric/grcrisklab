@@ -38,7 +38,7 @@ Below is a snapshot example.
 We would then add the ```Threat``` column and add to our Audit excel spreadsheet.
 
 A further two columns called ```Vulnerability Description``` and ```Mitigating Factors or Compensatory Controls in Place``` would be addeded. 
-So the risk assessment file would have the following columns. 
+So the risk assessment file would have the following columns.  The column headings were taken and modified from Appendix I of NIST SP 800-30.
 
 | Threat(s) |	Vulnerability Description	| Mitigating Factors or Compensatory Controls in Place	| 
 | :---: |  :---: |  :---: |  
@@ -55,7 +55,7 @@ The ```Mitigating Factors or Compensatory Controls in Place``` means
 Now that we have entered our data for the above columns in Step 1 (the Threat, the Vulnerability and Mitigating Factors), 
 we need to as objectively as possible quantify the likelihood and impact of each threat.
 
-Using NIST SP 800-30 Appendix G and H tables, we can begin to accurately quantify the Likelihood and Impact of the Vulnerability to Falcone Systems.
+Using NIST SP 800-30 Appendix G and H tables, we can begin to accurately quantify the Likelihood and Impact of each Vulnerability to Falcone Systems.
 
 Values can either be 
 qualitative: 
@@ -66,81 +66,68 @@ or semi quantitative:
 | 0 | 2 |	5| 8	| 10	| 
 | :---: |  :---: |  :---: |   :---: |   :---: |  
 
+After inputting all the data, we can move onto the next step.
+
 <br/>
 
 
 ## Step 3 - Calcuating the Risk
  
-From the 
+Since all the data was inputted from step 2, this step is
+now easy. 
 
-- [x] Ensure comprehensive data collection during the interview.
-- [x] Determine the implementation status of Media Protection controls.
-- [x] Document evidence, noting both the provider and the nature of the evidence.
-  
-With the interviewees’ consent, the session was both recorded and documented through notes.
+Risk is calculated as:
+```Likelihood```  X  ```Impact```
 
-Data collection encompassed interviews, document reviews, and testing to verify active implementation of processes.
+If a semi-quantitative approach was used then a final score out of 100 will be calculated.
+For example: 
+```Likelihood```  = 2
+```Impact``` = 8
+``Risk``` = 2 x 8 = 16
 
-For any additional information or to address pending action items, quick follow-up communications were promptly executed via email and phone after the audit interview.
+A ```Risk``` of 16 out of 100 is considered low.
+The image below shows an example using this approach.
 
-<br/>
+![image](1)
 
 
-## Step 4 - Post Audit Reconciliation (Data cleaning)
+If using a qualitative approach your results will be mapped to a risk assessment table
+that will combine both likelihood and impact similar to the below table.
 
-Our goal here is to ensure that we have collected all the necessary data. Any missing data must be gathered as soon as possible.
-We are now starting to organize this data into the excel spreadsheet and inputting it under the following column headings.
+![image](2)
 
-Below is a sample.
-
-| Data Collection |	Evidence Detail	| Findings	| 
-| :---: |  :---: |  :---: |
-| Interview |	Director of IT	| No controls in place	| 
-| Tested |	Network Engineer	| Reviewed Documentation of Media Markings	| 
-
-<br/>
-
-Data Collection can be:
-*	Interview form – can be via recorded Zoom or in-person.
-*	Documentation – these are documentation provided by the interviewee.
-*	Tested – a process that the organization currently uses.
-
-Evidence Detail can be:
-*	The person who provided the evidence.
-*	A documented record or process.
-
-Findings:
-*	This is the information that was given by the Evidence detail. 
-*	The findings here must be factually verifiable.
+In our risk assessment report, we have gone the semi-quantitative approach.
 
 
 <br/>
 
 
-## Step 5 - Analysis 
+## Step 4 - Explaning the Risk
 
-In this step, our objective is to assess the effectiveness of the security controls under audit. 
+We would add an extra column to the risk assessment spreadsheet and call it ```Risk Explanation```.
 
-We've introduced a ```Disposition``` column with four predefined values to describe the status of each control:
+```Risk Explanation``` can:
+*	be concise.
+*	explain the consequence for Falcone Systems if exploited.
 
-- [x] Not in Place: Indicates that the security control is absent.
-- [x] Not Applicable: Indicates that the security control is unnecessary or currently not relevant.
-- [x] Partially Implemented: Indicates that the security control is only partially put into effect.
-- [x] Fully Implemented: Indicates that the security control is fully in place and effective.
- 
-The Disposition value is determined objectively by evaluating the gathered data for each control. 
-This assessment is conducted individually for every control included in the audit.
 
+Our goal here is simply to explain the risk of each vulnerability/control sorted by most severe to least severe. 
+A good way to explain the risk is what would happen to Falcone System if this vulnerability was to be exploited?
+What would be the consequences would this cause to Falcone Systems?
+
+If a control is already in place and working as intendend, we would just skip it.
+
+<br/>
 <br/>
 
 
-## Step 6 - Reporting our Findings (Final Audit Report)
 
-The Final Audit Report is compiled and presented. This an audit report and not a risk report. 
-You can add the risk findings in the final report after a risk assessment if needed.
-The final report is attched in this git repo as a pdf file ```Audit Lab Final Report v2``` 
+## Step 5 - Reporting our Findings (Final Risk Assessment Report)
 
-Included in the final audit report are the following sections:
+The Final Risk Assessment Report is compiled and presented to board members and senior executives.
+The final report is also attched in this git repo as a pdf file ```Risk Assessment Lab Final Report v2``` 
+
+Included in the final Risk Assessment report are the following sections:
 
 ### Executive Summary 
   *	Overview: A concise overview of the audit’s objectives, scope, and main findings. Designed for high-level stakeholders.
@@ -187,14 +174,9 @@ Included in the final audit report are the following sections:
 <br/>
 <br/>
 
-## Step 7 - Final Audit Report 
-The full report is in ```Audit Lab Final Report v2.pdf``` in this git repo.
+The full report is in ```Risk Assessment Final Report v2.pdf``` in this git repo.
 
 Sample screenshots. 
 <br/>
 <a href="https://ibb.co/PttdXY7"><img src="https://i.ibb.co/Bww9WPX/1.png" alt="1" border="0"></a>
-<a href="https://ibb.co/MsfHgr2"><img src="https://i.ibb.co/s2C4gnm/2.png" alt="2" border="0"></a>
-<a href="https://ibb.co/MVW4d1W"><img src="https://i.ibb.co/d21qZp1/3.png" alt="3" border="0"></a>
-<a href="https://ibb.co/cNz2FsX"><img src="https://i.ibb.co/P5B1hVz/4.png" alt="4" border="0"></a>
-<a href="https://ibb.co/S7gP9hw"><img src="https://i.ibb.co/dJvrzd4/5.png" alt="5" border="0"></a>
-<a href="https://ibb.co/qsYryf3"><img src="https://i.ibb.co/Z8zMLPp/6.png" alt="6" border="0"></a>
+
