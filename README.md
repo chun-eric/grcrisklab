@@ -83,6 +83,8 @@ If a semi-quantitative approach was used then a final score out of 100 will be c
 For example: 
 ```Likelihood```  = 2
 ```Impact``` = 8
+<br/>
+
 ``Risk``` = 2 x 8 = 16
 
 A ```Risk``` of 16 out of 100 is considered low.
