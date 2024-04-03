@@ -90,13 +90,13 @@ For example:
 A ```Risk``` of 16 out of 100 is considered low.
 The image below shows an example using this approach.
 
-![image](1)
+<a href="https://ibb.co/cb4zcVC"><img src="https://i.ibb.co/TK9zBdb/1.png" alt="1" border="0"></a>
 
 
 If using a qualitative approach your results will be mapped to a risk assessment table
 that will combine both likelihood and impact similar to the below table.
 
-![image](2)
+<a href="https://ibb.co/hRvfxS3"><img src="https://i.ibb.co/bgnJjkc/2.png" alt="2" border="0"></a>
 
 In our risk assessment report, we have gone the semi-quantitative approach.
 
