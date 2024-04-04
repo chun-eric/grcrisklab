@@ -137,31 +137,34 @@ Included in the final Risk Assessment report are the following sections:
   *	Recommendations Summary: Summarizes recommended actions.
 
 ### Objective & Scope
-  *	Purpose of the Audit: Describes objectives and triggers of the audit.
-  * Scope: Details examined systems, networks, and data.
+  *	Purpose of the Risk Assessment: Describes objectives and scope of the risk assessment.
+  * Scope: Details examined control.
 
 
-### Audit Methodology and Standards
-  * Audit Procedures: Specific procedures followed, including automated and manual checks. Listing the people the auditors interviewed.
-  * What was Audited?
-  * Methodology: Explains audit methods and tools.
-  * Standards and Frameworks: Cybersecurity standards and frameworks used as benchmarks. This is the specific set of controls based off a framework such SP 800-171 or NIST CSF.
+### Risk Assessment Methodology 
+  * Risk Assessment Procedures: Specific procedures followed.
+  * What was asssessed?
+  * Methodology: Explains risk assessment methods and tools.
+  *   * Risk Analysis: Identified risks based on likelihood and impact.
+  * Standards and Frameworks: Cybersecurity standards and frameworks used as benchmarks. This is the specific set of controls based off a framework such SP 800-30 or NIST CSF.
 
-### Detailed Findings and Analysis
+### Vulnerability Findings and Analysis
   * Security Controls Assessment: Effectiveness of existing security controls.
   * Compliance Assessment: Compliance with laws, regulations, and standards.
   *	Linking the spreadsheet so anyone can verifiably fact check.
   *	Vulnerabilities Identified: Detailed list of discovered vulnerabilities, categorized by severity.
   *	Optionally can add a High Level compliance status (e.g. Listing the top 25 controls and implementation status next to it)
 
-### Risk Assessment (wait)
-  * Risk Analysis: Identified risks based on likelihood and impact.
-  * Risk Prioritization: Prioritizing risks to guide mitigation efforts.
+### Risk Evaluation
+  * How was risk evaluated? Showing data to back it up.
+  * Risk Prioritization: Prioritizing risks to guide mitigation efforts. What were the key risks to look out for?
 
-### Recommendations and Action Plan (optional)
+### Recommendations (optional)
   *	Mitigation Strategies: Recommendations for mitigating identified vulnerabilities.
   *	Implementation Timeline: Timeline for implementing recommendations.
   *	As the auditor you could provide a fix in order to help ensure the org get compliant
+
+### Implementation Timeline (optional)
 
 ### Conclusion
   * Overall Security Posture: Closing assessment of the organization's cybersecurity posture.
@@ -169,6 +172,11 @@ Included in the final Risk Assessment report are the following sections:
   *	Future Recommendations: Next steps for continuous improvement.
 
 ### Appendices
+*	Glossary
+*	Detailed Logs and Evidence – supporting documents and evidence collected
+*	Audit Team Members
+
+### References
 *	Glossary
 *	Detailed Logs and Evidence – supporting documents and evidence collected
 *	Audit Team Members
