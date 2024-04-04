@@ -9,12 +9,6 @@ The risk assessment could be undertaken from the findings of the Falcone Systems
 
 The goal of this risk assessment is found out the 
 
-We structured the audit into six detailed steps, using NIST SP 800-30 Guide for Conducting Risk Assessments 2, which covers the protection of Controlled Unclassified Information in non-federal systems and organizations, 
-as our primary reference. 
-
-We then compared and aligned the security measures at Falcone IT Systems with the Media Protection controls from NIST SP 800-53 Revision 5, 
-ensuring that they meet the requirements for safeguarding Controlled Unclassified Information.
-
 
 Below are the steps we took to undertake this risk assessment.
 
