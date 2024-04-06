@@ -1,5 +1,5 @@
 
-# Cybersecurity Risk Assessment Documentation/Walkthrough for Falcone Systems
+# Cybersecurity Risk Assessment Documentation & Walkthrough for Falcone Systems
 
 ### To see the full Final Report click on the attached ```Risk Assessment Lab Final Report v2.pdf``` located in this repository.
 
