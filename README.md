@@ -7,10 +7,10 @@
 The Falcone Systems risk assessment is focused on assessing the risk from the Media Protection controls that were either partially in place or not in place at Falcone Systems. 
 The risk assessment could be undertaken from the findings of the Falcone Systems Audit Lab. 
 
-The goal of this risk assessment is found out the 
+The goal of this risk assessment is to analyse the likelihood and impact whether a vulnerability could be exploited by threat actors from one of these 
+ineffective media protection controls and how it would impact Falcone Systems.
 
-
-Below are the steps we took to undertake this risk assessment.
+Below are the steps I took to undertake this risk assessment.
 
 <br/>
 
