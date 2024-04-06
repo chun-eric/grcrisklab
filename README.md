@@ -44,7 +44,7 @@ The ```Mitigating Factors or Compensatory Controls in Place``` means
 <br/>
 
  
-## Step 2 - Conduct the Risk Assessment
+## Step 2 - Conducting the Risk Assessment
 
 Now that we have entered our data for the above columns in Step 1 (the Threat, the Vulnerability and Mitigating Factors), 
 we need to as objectively as possible quantify the likelihood and impact of each threat.
@@ -67,8 +67,7 @@ After inputting all the data, we can move onto the next step.
 
 ## Step 3 - Calcuating the Risk
  
-Since all the data was inputted from step 2, this step is
-now easy. 
+Since all the data was inputted from step 2, this step is simple to calculate. 
 
 Risk is calculated as:
 ```Likelihood```  X  ```Impact```
