@@ -92,23 +92,25 @@ that will combine both likelihood and impact similar to the below table.
 <a href="https://ibb.co/hRvfxS3"><img src="https://i.ibb.co/bgnJjkc/2.png" alt="2" border="0"></a>
 
 In our risk assessment report, we have gone the semi-quantitative approach.
+Risk values were based from NIST SP 800-30 Appendix tables I,G,H and E.
 
 
 <br/>
 
 
-## Step 4 - Explaning the Risk
+## Step 4 - Explaining the Risk
 
-We would add an extra column to the risk assessment spreadsheet and call it ```Risk Explanation```.
+We added an extra column to the risk assessment spreadsheet and called it ```Risk Explanation```.
 
-```Risk Explanation``` can:
+```Risk Explanation``` should:
 *	be concise.
 *	explain the consequence for Falcone Systems if exploited.
 
 
-Our goal here is simply to explain the risk of each vulnerability/control sorted by most severe to least severe. 
+ Our goal is simply to explain the risk of each vulnerability/control sorted by most severe to least severe. 
+ 
 A good way to explain the risk is what would happen to Falcone System if this vulnerability was to be exploited?
-What would be the consequences would this cause to Falcone Systems?
+What negative consequences would this cause to Falcone Systems?
 
 If a control is already in place and working as intendend, we would just skip it.
 
@@ -119,67 +121,65 @@ If a control is already in place and working as intendend, we would just skip it
 
 ## Step 5 - Reporting our Findings (Final Risk Assessment Report)
 
-The Final Risk Assessment Report is compiled and presented to board members and senior executives.
-The final report is also attched in this git repo as a pdf file ```Risk Assessment Lab Final Report v2``` 
+The Final Risk Assessment Report is compiled and presented to board members, senior executives and key stakeholders.
+The full final report can also be seen in this git repo as a pdf file ```Risk Assessment Lab Final Report v2``` 
 
 Included in the final Risk Assessment report are the following sections:
 
 ### Executive Summary 
-  *	Overview: A concise overview of the audit’s objectives, scope, and main findings. Designed for high-level stakeholders.
-  *	Key Findings: Highlights critical vulnerabilities or compliance issues.
+  *	Overview: A concise overview of the risk assessment’s objectives, scope, and main findings. 
+  *	Key Findings: Highlights critical vulnerabilities or risk issues.
   *	Recommendations Summary: Summarizes recommended actions.
 
 ### Objective & Scope
   *	Purpose of the Risk Assessment: Describes objectives and scope of the risk assessment.
-  * Scope: Details examined control.
-
+  * Scope: Details the scope of what to assess.
 
 ### Risk Assessment Methodology 
   * Risk Assessment Procedures: Specific procedures followed.
   * What was asssessed?
   * Methodology: Explains risk assessment methods and tools.
-  *   * Risk Analysis: Identified risks based on likelihood and impact.
-  * Standards and Frameworks: Cybersecurity standards and frameworks used as benchmarks. This is the specific set of controls based off a framework such SP 800-30 or NIST CSF.
+  * Risk Analysis: Identified risks based on likelihood and impact.
 
-### Vulnerability Findings and Analysis
-  * Security Controls Assessment: Effectiveness of existing security controls.
-  * Compliance Assessment: Compliance with laws, regulations, and standards.
-  *	Linking the spreadsheet so anyone can verifiably fact check.
-  *	Vulnerabilities Identified: Detailed list of discovered vulnerabilities, categorized by severity.
-  *	Optionally can add a High Level compliance status (e.g. Listing the top 25 controls and implementation status next to it)
+### Threat and Vulnerability Analysis
+  * Security Controls Assessment: Effectiveness of existing Media Protection security controls.
+  *	Describing what type of threat, a short description of the vulnerability and mitigating factors in place for each media protection control not in place or partially in place.
 
 ### Risk Evaluation
-  * How was risk evaluated? Showing data to back it up.
+  * How was risk evaluated? Showing data to back it up based on NIST SP 800-30.
   * Risk Prioritization: Prioritizing risks to guide mitigation efforts. What were the key risks to look out for?
+  * Sorting the risk from most severe to least severe, to gain a big picture perspective of what could affect the business the most.
 
-### Recommendations (optional)
-  *	Mitigation Strategies: Recommendations for mitigating identified vulnerabilities.
-  *	Implementation Timeline: Timeline for implementing recommendations.
-  *	As the auditor you could provide a fix in order to help ensure the org get compliant
+### Recommendations 
+  *	Mitigation Strategies: Recommendations for mitigating identified vulnerabilities/risk.
+  *	As the risk assessor you could provide a fix in order to help ensure the organization gets protected from the most critical vulnerabilities.
 
-### Implementation Timeline (optional)
-
+### Implementation (optional)
+  *	Implementation Timeline: Timeline for implementing recommendations over a period of 28 months to enhance all media protection controls.
+    
 ### Conclusion
   * Overall Security Posture: Closing assessment of the organization's cybersecurity posture.
   *	Provide key takeaways from the audit such as critical issues and implementation recommendations. 
   *	Future Recommendations: Next steps for continuous improvement.
 
 ### Appendices
-*	Glossary
-*	Detailed Logs and Evidence – supporting documents and evidence collected
+*	Glossary (if necessary)
+*	Detailed Logs and Evidence – supporting documents and evidence collected.
 *	Audit Team Members
 
 ### References
-*	Glossary
-*	Detailed Logs and Evidence – supporting documents and evidence collected
-*	Audit Team Members
+*	Any documents, tables or data used as a reference 
+
 
 <br/>
 <br/>
 
-The full report is in ```Risk Assessment Final Report v2.pdf``` in this git repo.
+The full report can be seen in```Risk Assessment Final Report v2.pdf``` located in this git repo.
 
 Sample screenshots. 
 <br/>
-<a href="https://ibb.co/PttdXY7"><img src="https://i.ibb.co/Bww9WPX/1.png" alt="1" border="0"></a>
+<a href="https://ibb.co/QQPPCkQ"><img src="https://i.ibb.co/jfyyWzf/4.png" alt="4" border="0"></a>
+<a href="https://ibb.co/jV0qfRj"><img src="https://i.ibb.co/cbfR3Ls/5.png" alt="5" border="0"></a>
+<a href="https://ibb.co/C1G6jgK"><img src="https://i.ibb.co/xCTYnWq/6.png" alt="6" border="0"></a>
+<a href="https://ibb.co/XS6YLy8"><img src="https://i.ibb.co/pJNhwWy/7.png" alt="7" border="0"></a>
 
